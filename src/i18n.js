@@ -1,11 +1,11 @@
 import i18n from 'i18next';
 import Backend from 'i18next-xhr-backend';
 import { initReactI18next } from 'react-i18next';
-import en from './utils/translations/en.json';
-import es from './utils/translations/es.json';
+import LanguageDetector from 'i18next-browser-languagedetector';
 
 i18n
   .use(Backend)
+  .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     lng: 'en',

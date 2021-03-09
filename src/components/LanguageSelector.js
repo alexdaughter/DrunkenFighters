@@ -1,13 +1,12 @@
-import React from 'react'
-import { useTranslation } from 'react-i18next'
-
-
+import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const LanguageSelector = () => {
   const { t, i18n } = useTranslation()
 
   const changeLanguage = (event) => {
-    i18n.changeLanguage(event.target.value)
+    i18n.changeLanguage(event.target.value);
+
   }
 
 
