@@ -1,0 +1,58 @@
+{ 
+    "components": [
+        {
+            "id": 1,
+            "name": "Pau",
+            "age": "33",
+            "role": "Drumms",
+            "backingVocals": true,
+            "otherBands": ["Drink Hunters", "Komeme el Koño", "Gedra"],
+            "picture": "pau.PNG"
+        },
+        {
+            "id": 2,
+            "name": "Alex",
+            "age": "30",
+            "role": "Singer",
+            "backingVocals": false,
+            "otherBands": ["Brutus' Daughters", "Clitters"],
+            "picture": "alex.PNG"
+        },
+        {
+            "id": 3,
+            "name": "Arnau",
+            "age": "30",
+            "role": "Bass",
+            "backingVocals": true,
+            "previousBands": ["Los Tronchos", "AID"],
+            "picture": "arnau.PNG"
+        },
+        {
+            "id": 4,
+            "name": "Ignasi",
+            "age": "29",
+            "role": "Fiddle",
+            "backingVocals": true,
+            "previousBands": ["El pony pisador"],
+            "picture": "ignasi.PNG"
+        },
+        {
+            "id": 5,
+            "name": "Genís",
+            "age": "25",
+            "role": "Whistle and Mandolin",
+            "backingVocals": false,
+            "previousBands": ["Gedra", "Falç", "Tu bieja"],
+            "picture": "genis.PNG"
+        },
+        {
+            "id": 6,
+            "name": "Jordi",
+            "age": "24",
+            "role": "Guitar",
+            "backingVocals": true,
+            "previousBands": ["Gedra"],
+            "picture": "jordi.PNG"
+        }
+    ]
+}

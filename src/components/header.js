@@ -5,7 +5,7 @@ import { withTranslation } from 'react-i18next';
 import LanguageSelector from './LanguageSelector';
 
 const Header = () => {
-    const{ t, i18n } = useTranslation();
+    const{ t,  } = useTranslation();
     return (
     <header className="App-header container"> 
         <nav className="navbar navbar-expand-lg navbar-light">
