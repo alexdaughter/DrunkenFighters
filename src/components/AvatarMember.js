@@ -18,6 +18,7 @@ const AvatarMember = ({ member }) => {
     return(
         <div className="avatar-member">
             <img className="avatar-member__img" src={getImg()} alt={member.name}/>
+            <p>{member.name}</p>
         </div>
     )
 }
