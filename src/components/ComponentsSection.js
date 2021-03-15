@@ -22,13 +22,13 @@ export default function ComponentsSection (){
 
     return(
         <section className="container">
-        <ul className="components-list">
-            {members && members.map((member) => (
-              <li key={member.id}>
-                <AvatarMember member={member}/>
-              </li>
-            ))}
-          </ul>
+            <ul className="components-list">
+                {members && members.map((member) => (
+                <li key={member.id}>
+                    <AvatarMember member={member}/>
+                </li>
+                ))}
+            </ul>
           {message && <p>{message}</p>}
         </section>
     );

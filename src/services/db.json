@@ -4,7 +4,7 @@
             "id": 1,
             "name": "Pau",
             "age": "33",
-            "role": "Drumms",
+            "role": "drumms",
             "backingVocals": true,
             "otherBands": ["Drink Hunters", "Komeme el Koño", "Gedra"],
             "picture": "pau.PNG"
@@ -13,7 +13,7 @@
             "id": 2,
             "name": "Alex",
             "age": "30",
-            "role": "Singer",
+            "role": "voice",
             "backingVocals": false,
             "otherBands": ["Brutus' Daughters", "Clitters"],
             "picture": "alex.PNG"
@@ -22,7 +22,7 @@
             "id": 3,
             "name": "Arnau",
             "age": "30",
-            "role": "Bass",
+            "role": "bass",
             "backingVocals": true,
             "previousBands": ["Los Tronchos", "AID"],
             "picture": "arnau.PNG"
@@ -31,7 +31,7 @@
             "id": 4,
             "name": "Ignasi",
             "age": "29",
-            "role": "Fiddle",
+            "role": "fiddle",
             "backingVocals": true,
             "previousBands": ["El pony pisador"],
             "picture": "ignasi.PNG"
@@ -40,7 +40,7 @@
             "id": 5,
             "name": "Genís",
             "age": "25",
-            "role": "Whistle and Mandolin",
+            "role": "whistle_mandolin",
             "backingVocals": false,
             "previousBands": ["Gedra", "Falç", "Tu bieja"],
             "picture": "genis.PNG"
@@ -49,7 +49,7 @@
             "id": 6,
             "name": "Jordi",
             "age": "24",
-            "role": "Guitar",
+            "role": "guitar",
             "backingVocals": true,
             "previousBands": ["Gedra"],
             "picture": "jordi.PNG"
