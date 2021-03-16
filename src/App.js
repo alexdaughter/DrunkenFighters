@@ -1,11 +1,11 @@
 import React, {Suspense} from 'react';
-import Header from './components/header';
-import { Redirect, Route, Switch, withRouter } from "react-router-dom";
-import './stylesheets/App.scss';
+import Header from './components/Header';
 import logowhite from './images/logos/drunken_solo_letra_light.png';
 import General from './components/General';
 import MemberCard from './components/MemberCard';
 import NotFound from './components/NotFound';
+import './stylesheets/App.scss';
+import { Redirect, Route, Switch, withRouter } from "react-router-dom";
 
 const Loader = () => (
   <div className="App">

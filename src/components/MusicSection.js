@@ -6,7 +6,7 @@ import logoBandcamp from "../images/logos/bandcamp-logo.svg";
 export default function MusicSection (){
     const{ t, } = useTranslation();
     return(
-        <section className="music-container d-flex flex-column justify-content-center align-items-center">
+        <section id="section-music" className="music-container d-flex flex-column justify-content-center align-items-center">
             <h2 className="text-center title-music">{t('music')}</h2>
             <div className="d-md-flex justify-content-between music-sites">
                 <div className="d-flex flex-column justify-content-center align-items-center mb-4">

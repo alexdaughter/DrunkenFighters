@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import logo from '../images/logos/df-botella.png';
 import { withTranslation } from 'react-i18next';
 import LanguageSelector from './LanguageSelector';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
     const{ t,  } = useTranslation();
@@ -10,9 +11,9 @@ const Header = () => {
     <header className="App-header container"> 
         <nav className="navbar navbar-expand-lg navbar-light">
             <div className="navbar-header">
-                <a className="navbar-brand" href="#">
-                    <img src={logo} height="100" alt="band logo" loading="lazy"/>
-                </a>
+                <HashLink to='/'>
+                    <img className="navbar-brand" src={logo} height="100" alt="band logo" loading="lazy"/>
+                </HashLink>
             </div>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -21,19 +22,19 @@ const Header = () => {
             <LanguageSelector />
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">{t('home')}</a>
+                        <HashLink className="nav-link" smooth to="/#section-us">{t('home')}</HashLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">{t('music')}</a>
+                        <HashLink className="nav-link" smooth to="/#section-music">{t('music')}</HashLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">{t('gallery')}</a>
+                        <a className="nav-link" href="#gallery">{t('gallery')}</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">{t('contact')}</a>
+                        <a className="nav-link" href="#contact">{t('contact')}</a>
                     </li>
                     <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         {t('dossier')}
                         </a>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">

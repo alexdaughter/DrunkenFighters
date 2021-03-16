@@ -7,7 +7,7 @@ const UsSection = () => {
     const{ t, } = useTranslation();
     return(
         <>
-        <section className="hero-image">
+        <section className="hero-image" id="section-us">
             <img src={logowhite} alt="band logo" loading="lazy" className="logo-header"/>
         </section>
         <section className="container us my-4">
