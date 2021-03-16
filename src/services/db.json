@@ -3,16 +3,16 @@
         {
             "id": 1,
             "name": "Pau",
-            "age": "33",
+            "birthYear": "1987",
             "role": "drumms",
             "backingVocals": true,
-            "otherBands": ["Drink Hunters", "Komeme el Koño", "Gedra"],
+            "otherBands": ["Drink Hunters", "Aural", "Gedra"],
             "picture": "pau.PNG"
         },
         {
             "id": 2,
             "name": "Alex",
-            "age": "30",
+            "birthYear": "1991",
             "role": "voice",
             "backingVocals": false,
             "otherBands": ["Brutus' Daughters", "Clitters"],
@@ -21,37 +21,37 @@
         {
             "id": 3,
             "name": "Arnau",
-            "age": "30",
+            "birthYear": "1987",
             "role": "bass",
             "backingVocals": true,
-            "previousBands": ["Los Tronchos", "AID"],
+            "otherBands": ["Los Tronchos", "AID", "Beside Yourself"],
             "picture": "arnau.PNG"
         },
         {
             "id": 4,
             "name": "Ignasi",
-            "age": "29",
+            "birthYear": "1992",
             "role": "fiddle",
             "backingVocals": true,
-            "previousBands": ["El pony pisador"],
+            "otherBands": ["Drink Hunters", "El pony pisador"],
             "picture": "ignasi.PNG"
         },
         {
             "id": 5,
             "name": "Genís",
-            "age": "25",
+            "birthYear": "1997",
             "role": "whistle_mandolin",
             "backingVocals": false,
-            "previousBands": ["Gedra", "Falç", "Tu bieja"],
+            "otherBands": ["Drink Hunters", "Falç", "Tu bieja", "Gedra"],
             "picture": "genis.PNG"
         },
         {
             "id": 6,
             "name": "Jordi",
-            "age": "24",
+            "birthYear": "2000",
             "role": "guitar",
             "backingVocals": true,
-            "previousBands": ["Gedra"],
+            "otherBands": ["Gedra"],
             "picture": "jordi.PNG"
         }
     ]

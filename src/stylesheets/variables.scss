@@ -1,0 +1,20 @@
+//COLORS
+
+$main-green:#288C05;
+$main-black: #1B1B1B;
+$white: white;
+
+//SIZE
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1567px;
+$xxxl: 1920px;
+
+:export {
+    // boundaryDevice:$lg;
+    mainGreen: $main-green;
+    mainBlack:$main-black;
+    white:$white;
+}

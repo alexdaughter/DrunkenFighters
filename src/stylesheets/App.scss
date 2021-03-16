@@ -1,3 +1,5 @@
+@import 'variables.scss';
+
 body, html {
   height: 100%;
 }
@@ -9,6 +11,15 @@ body{
 overflow-x: hidden;
 
 }
+
+a {
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
 * {
   margin:0;
   padding: 0;
@@ -19,22 +30,23 @@ overflow-x: hidden;
   display: flex;
   flex-direction: column;
   width: 100vw;
+  color: $main-black;
 }
 
 .logo-header{
   height: 350px;
-  @media (max-width: 768px) {
+  @media (max-width: $md) {
     height: 200px;
   }
 }
 
 
 h2, h3, h4 {
-  color: #288C05;
+  color: $main-green;
 }
 
 .hero-image {
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/hero.jpg");
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
 height: 100vh;
 width: 100%;
 background-position: top;
@@ -47,7 +59,7 @@ flex-direction: column;
 }
 
 .menu-language__container{
-  @media (min-width:992px) {
+  @media (min-width:$lg) {
   display:flex;
   margin-left: auto;
   flex-direction: column
@@ -58,8 +70,7 @@ flex-direction: column;
 .language-selector{
   display: flex;
   margin-bottom: 5px;
-  list-style: none;
-  @media (min-width:768px) {
+  @media (min-width:$md) {
       // Para que esté alineado a la derecha con los items del menú
       margin-right: 8px;
       margin-left: auto;

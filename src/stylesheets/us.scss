@@ -1,9 +1,10 @@
+@import 'variables.scss';
+
 .components-list{
-    list-style: none;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    @media (max-width: 768px){
+    @media (max-width: $md){
         padding: 0 15px;
     }
 }

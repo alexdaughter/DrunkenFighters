@@ -1,18 +1,42 @@
+@import 'variables.scss';
+
 .music-container{
     clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
     background-color: rgb(27, 27, 27);
-    min-height: 50vh;
+    min-height: 55vh;
+    padding: 70px 0;
+    @media(max-width: $md){
+        min-height: 70vh;
+    }
 }
 
 .icon-bandcamp{
     width: 60px;
     height: 60px;
-    background-color: white;
+    background-color: $white;
     border-radius: 50%;
 }
 
 .music-sites{
-    @media (min-width: 768px){
+    @media (min-width: $md){
         width: 50%;
+    }
+}
+
+.title-music{
+    @media(min-width: $md){
+        margin: 15px 0 30px 0;
+    }
+}
+
+.ae .af{
+    background-color: $main-green;
+}
+
+//CARD
+
+.section-member__card{
+    p{
+        margin: 0;
     }
 }

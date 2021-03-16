@@ -1,10 +1,11 @@
 import React, {Suspense} from 'react';
 import Header from './components/header';
-import './App.scss';
+import { Redirect, Route, Switch, withRouter } from "react-router-dom";
+import './stylesheets/App.scss';
 import logowhite from './images/logos/drunken_solo_letra_light.png';
-import UsSection from './components/UsSection';
-import ComponentsSection from './components/ComponentsSection';
-import MusicSection from './components/MusicSection';
+import General from './components/General';
+import MemberCard from './components/MemberCard';
+import NotFound from './components/NotFound';
 
 const Loader = () => (
   <div className="App">
@@ -13,22 +14,21 @@ const Loader = () => (
   </div>
 );
 
-
-export default function App() {
-
-
-
-  return (
+function App() {
+  return(
     <Suspense fallback={<Loader />}>
     <div className="App">
       <Header/>
-      <main>
-        <UsSection />
-        <ComponentsSection />
-        <MusicSection />
-      </main>
+      <Switch>
+        <Route path="/components/:id" component={MemberCard} />
+        <Route path="/not-found" component={NotFound} />
+        <Route exact path='/' component={General}/>
+        <Redirect to="/not-found" />
+    </Switch>
     </div>
   </Suspense>
   );
 }
+
+export default withRouter(App);
 

@@ -6,7 +6,6 @@ const LanguageSelector = () => {
 
   const changeLanguage = (event) => {
     i18n.changeLanguage(event.target.value);
-
   }
 
 

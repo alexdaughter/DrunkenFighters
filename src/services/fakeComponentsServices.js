@@ -8,6 +8,7 @@ export async function getComponents() {
 };
 
 export async function getComponent(id) {
+  console.log(url + '/' + id)
   return await axios.get(url + '/' + id);
 };
 

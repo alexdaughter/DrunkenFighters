@@ -3,12 +3,17 @@ import Backend from 'i18next-xhr-backend';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
+const initialLanguage = () => {
+  const selectedLanguage = localStorage.getItem('i18nextLng');
+  return selectedLanguage ? selectedLanguage : 'en'
+}
+
 i18n
   .use(Backend)
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    lng: 'en',
+    lng: initialLanguage(),
     backend: {
       /* translation file path */
       loadPath: '/utils/{{ns}}/{{lng}}.json'
