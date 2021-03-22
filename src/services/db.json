@@ -7,7 +7,8 @@
             "role": "drumms",
             "backingVocals": true,
             "otherBands": ["Drink Hunters", "Aural", "Gedra"],
-            "picture": "pau.PNG"
+            "picture": "pau.PNG",
+            "bio": "bio_pau"
         },
         {
             "id": 2,
@@ -16,7 +17,8 @@
             "role": "voice",
             "backingVocals": false,
             "otherBands": ["Brutus' Daughters", "Clitters"],
-            "picture": "alex.PNG"
+            "picture": "alex.PNG",
+            "bio": "bio_alex"
         },
         {
             "id": 3,
@@ -25,7 +27,8 @@
             "role": "bass",
             "backingVocals": true,
             "otherBands": ["Los Tronchos", "AID", "Beside Yourself"],
-            "picture": "arnau.PNG"
+            "picture": "arnau.PNG",
+            "bio": "bio_arnau"
         },
         {
             "id": 4,
@@ -34,7 +37,8 @@
             "role": "fiddle",
             "backingVocals": true,
             "otherBands": ["Drink Hunters", "El pony pisador"],
-            "picture": "ignasi.PNG"
+            "picture": "ignasi.PNG",
+            "bio": "bio_ignasi"
         },
         {
             "id": 5,
@@ -43,7 +47,8 @@
             "role": "whistle_mandolin",
             "backingVocals": false,
             "otherBands": ["Drink Hunters", "Falç", "Tu bieja", "Gedra"],
-            "picture": "genis.PNG"
+            "picture": "genis.PNG",
+            "bio": "bio_genis"
         },
         {
             "id": 6,
@@ -52,7 +57,8 @@
             "role": "guitar",
             "backingVocals": true,
             "otherBands": ["Gedra"],
-            "picture": "jordi.PNG"
+            "picture": "jordi.PNG",
+            "bio": "bio_jordi"
         }
     ]
 }

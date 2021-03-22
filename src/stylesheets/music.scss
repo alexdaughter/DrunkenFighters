@@ -4,17 +4,10 @@
     clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
     background-color: rgb(27, 27, 27);
     min-height: 55vh;
-    padding: 70px 0;
+    padding: 100px 0;
     @media(max-width: $md){
         min-height: 70vh;
     }
-}
-
-.icon-bandcamp{
-    width: 60px;
-    height: 60px;
-    background-color: $white;
-    border-radius: 50%;
 }
 
 .music-sites{
@@ -32,7 +25,6 @@
 .ae .af{
     background-color: $main-green;
 }
-
 //CARD
 
 .section-member__card{

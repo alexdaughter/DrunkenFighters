@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import logo from '../images/logos/df-botella.png';
+import logo from '../images/logos/drunken_solo_letra_dark.png';
 import { withTranslation } from 'react-i18next';
 import LanguageSelector from './LanguageSelector';
 import { HashLink } from 'react-router-hash-link';
