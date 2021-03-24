@@ -3,6 +3,8 @@ import '../stylesheets/music.scss';
 import UsSection from './UsSection';
 import ComponentsSection from './ComponentsSection';
 import MusicSection from './MusicSection';
+import Gallery from './Gallery';
+import Contact from './Contact';
 
 export default function General (){
     return(
@@ -10,6 +12,8 @@ export default function General (){
             <UsSection />
             <ComponentsSection />
             <MusicSection />
+            {/* <Gallery /> */}
+            <Contact/>
         </main>
     );
 }
