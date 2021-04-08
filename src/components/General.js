@@ -12,7 +12,7 @@ export default function General (){
             <UsSection />
             <ComponentsSection />
             <MusicSection />
-            {/* <Gallery /> */}
+            <Gallery />
             <Contact/>
         </main>
     );

@@ -31,7 +31,7 @@ const Header = () => {
                         <a className="nav-link" href="#gallery">{t('gallery')}</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#contact">{t('contact')}</a>
+                        <HashLink className="nav-link" smooth to="/#section-contact">{t('contact')}</HashLink>
                     </li>
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

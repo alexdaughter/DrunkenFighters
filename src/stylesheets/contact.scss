@@ -1,0 +1,26 @@
+@import 'variables.scss';
+
+.contact-container{
+    padding: 100px 0 100px 0;
+    @media(max-width: $md){
+        min-height: 70vh;
+    }
+}
+
+.green{
+    color: $main-green;
+  }
+
+.form-contact{
+    width: 85%;
+    @media (min-width: $md){
+        width: 50%;
+    }
+    @media (min-width: $lg){
+        width: 40%;
+    }
+}
+
+label, .contact-directly{
+    color: white;
+}
